@@ -73,7 +73,11 @@ ruff check .
 ruff check . --fix
 ```
 
-To fix readability of your code style you can use [yapf](https://github.com/google/yapf).## Generating the API docs
+To fix readability of your code style you can use [yapf](https://github.com/google/yapf).You can enable automatic linting with `ruff` on commit by enabling the git hook from `.githooks/pre-commit`, like so:
+
+```shell
+git config --local core.hooksPath .githooks
+```## Generating the API docs
 
 ```shell
 cd docs

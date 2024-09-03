@@ -6,6 +6,7 @@ SelectCodeQualityFeatures:
 - AddLocalTests_flag
 - SelectGitHubActions_flag
 - AddLinting_flag
+- AddPreCommit_flag
 - AddSonarCloud_flag
 - AddEditorConfig_flag
 SelectCommunityFeatures:
